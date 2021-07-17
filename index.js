@@ -33,7 +33,7 @@ app.use(morgan('short')); //dev - z kolorami, short - bez kolorów
 app.get('/', (req, res) => {
     var liczbalosowa = losowa(0, items.length - 1)
     var wylosowany = items[liczbalosowa]
-    var link = "http://" + req.headers.host + "/obrazki/" + wylosowany
+    var link = "https://" + req.headers.host + "/obrazki/" + wylosowany
     var odpowiedz = {
         Jak_uzywac: "Odwiedzając stronę główną jest losowany za każdym razem jeden obraz z puli. Wszystkie obrazki są licencji CC0 z Pixabay. Jest możliwość wylosowania również filmu (CC0). Zmienna url podaje bezpośredni link do obrazka",
         How_to_use: "When visiting the home page, one image is drawn from the pool each time. All images are licensed under the CC0 from Pixabay. It is also possible to draw a movie (CC0). The url variable gives a direct link to the image",
