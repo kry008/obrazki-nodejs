@@ -4,7 +4,6 @@ const morgan = require('morgan');
 resolve = require('path').resolve
 const testFolder = './public/obrazki/';
 const fs = require('fs');
-const send = require('send');
 //losowa liczba z zakresu
 function losowa(min, max) {
     min = Math.ceil(min);
