@@ -43,7 +43,7 @@ app.get('/', (req, res) => {
         img: wylosowany,
         url: link,
         to_use_number: "/nr/YOUR_NUMBER",
-        git: "https://github.com/kry008/api-obrazki"
+        git: "https://github.com/kry008/obrazki-nodejs"
     }
     res.status(200).json(odpowiedz);
 
