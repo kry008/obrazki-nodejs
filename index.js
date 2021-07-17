@@ -1,3 +1,4 @@
+//skrypty.ml
 const express = require('express');
 const morgan = require('morgan');
 //służy do ścieżek względnych na bezwzględne które są wymagane do wysyłania obrazku
